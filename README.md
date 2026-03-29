@@ -11,8 +11,6 @@ Today’s micro-task platforms are fundamentally broken for global collaboration
 ## 💡 Our Solution: ROSEN Micro-Task Agent
 Architecture Overview (Flowchart)
 
-To help judges quickly understand the flow, add this diagram to your README.md:
-
 graph LR
     A[User] --> B{World ID Verify}
     B -- Human --> C[AgentKit Logic]
@@ -21,7 +19,9 @@ graph LR
     E --> F[Instant Payout]
 
 
+
 Flow Description:
+
 User initiates a task.
 
 World ID (IDKit) verifies "Proof of Personhood".
