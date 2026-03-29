@@ -23,14 +23,11 @@ graph LR
 Flow Description:
 
 User initiates a task.
-
 World ID (IDKit) verifies "Proof of Personhood".
-
 AgentKit (Logic) orchestrates the mission matching.
-
 XMTP (Comm) handles encrypted A2A negotiation and translation.
-
 Coinbase x402 (Settlement) executes the autonomous revenue split.
+
 
 We’ve built an autonomous AI Agent infrastructure that removes these barriers using a triple-stack of Web3 technologies:
 ### 1. Proof of Personhood (World ID)
