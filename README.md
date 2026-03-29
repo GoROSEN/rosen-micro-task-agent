@@ -9,6 +9,25 @@ Today’s micro-task platforms are fundamentally broken for global collaboration
 3. Trust & Bot-Farming: Without proof-of-personhood, platforms are plagued by Sybil attacks, leading to low-quality data for brands.
 
 ## 💡 Our Solution: ROSEN Micro-Task Agent
+1. Architecture Overview (Flowchart)
+
+To help judges quickly understand the flow, add this diagram to your README.md:
+
+graph LR
+    A[User] --> B{World ID Verify}
+    B -- Human --> C[AgentKit Logic]
+    C --> D[XMTP Communication]
+    D -- Negotiation --> E[x402 Settlement]
+    E --> F[Instant Payout]
+
+
+Flow Description:
+User initiates a task.
+World ID (IDKit) verifies "Proof of Personhood".
+AgentKit (Logic) orchestrates the mission matching.
+XMTP (Comm) handles encrypted A2A negotiation and translation.
+Coinbase x402 (Settlement) executes the autonomous revenue split.
+
 We’ve built an autonomous AI Agent infrastructure that removes these barriers using a triple-stack of Web3 technologies:
 ### 1. Proof of Personhood (World ID)
 To ensure high-quality data and prevent bot-farming, ROSEN integrates World ID. Only Verified Humans can access premium task pools. This gives global brands the confidence that their tasks are being completed by real people, not scripts.
