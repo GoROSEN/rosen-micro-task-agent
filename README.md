@@ -9,7 +9,7 @@ Today’s micro-task platforms are fundamentally broken for global collaboration
 3. Trust & Bot-Farming: Without proof-of-personhood, platforms are plagued by Sybil attacks, leading to low-quality data for brands.
 
 ## 💡 Our Solution: ROSEN Micro-Task Agent
-Architecture Overview (Flowchart)
+## Architecture Overview (Flowchart)
 
 graph LR
     A[User] --> B{World ID Verify}
